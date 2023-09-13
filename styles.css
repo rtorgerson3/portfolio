@@ -5,8 +5,17 @@
 }
 
 body {
+  background-color: #f8f9fa;
+}
+
+.container {
   margin: 60px auto;
   max-width: 800px;
+}
+
+.navbar-log {
+  width: 70px;
+  border-radius: 100px;
 }
 
 h2 {
