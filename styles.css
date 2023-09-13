@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #646263;
+  --secondary-color: #faf9fa;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -8,7 +8,7 @@ body {
   background-color: #faf9fa;
 }
 
-.container {
+.home-intro {
   margin: 60px auto;
   max-width: 800px;
 }
