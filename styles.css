@@ -19,12 +19,12 @@ body {
   box-shadow: var(--box-shadow);
 }
 
-h2 {
-  font-size: 48px;
+h1 {
+  font-size: 75px;
 }
 
-h1 {
-  font-size: 96px;
+h2 {
+  font-size: 48px;
 }
 h3 {
   font-size: 24px;
