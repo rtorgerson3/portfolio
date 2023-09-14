@@ -8,6 +8,9 @@ body {
   background-color: #faf9fa;
 }
 
+.body-container {
+  margin-top: 76px;
+}
 .home-intro {
   margin: 60px auto;
   max-width: 800px;
