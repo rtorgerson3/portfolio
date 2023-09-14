@@ -35,11 +35,9 @@ h1,
 h2,
 h3 {
   text-align: center;
-  margin: 0;
 }
 
 .navigation-links {
-  margin-top: 40px;
   display: flex;
   justify-content: center;
 }
