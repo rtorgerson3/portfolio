@@ -8,20 +8,6 @@ body {
   background-color: #faf9fa;
 }
 
-.body-container {
-  margin-top: 76px;
-}
-.home-intro {
-  margin: 60px auto;
-  max-width: 800px;
-}
-
-.navbar-log {
-  width: 50px;
-  border-radius: 100px;
-  box-shadow: var(--box-shadow);
-}
-
 h1 {
   font-size: 75px;
 }
@@ -34,10 +20,18 @@ h3 {
   opacity: 0.7;
 }
 
-h1,
-h2,
-h3 {
-  text-align: center;
+.body-container {
+  margin-top: 76px;
+}
+.home-intro {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+.navbar-log {
+  width: 50px;
+  border-radius: 100px;
+  box-shadow: var(--box-shadow);
 }
 
 .navigation-links {
@@ -105,4 +99,31 @@ h3 {
 
 .email:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+    margin-top: 100px;
+  }
+  h2 {
+    margin-top: 15px;
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .primary-link {
+    font-size: 16px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  .contact-info {
+    font-size: 18px;
+  }
 }
