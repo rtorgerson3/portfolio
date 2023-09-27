@@ -10,12 +10,18 @@ body {
 
 h1 {
   font-size: 75px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 
 h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
   font-size: 48px;
 }
 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
   font-size: 24px;
   opacity: 0.7;
 }
@@ -52,17 +58,23 @@ h3 {
 }
 
 .contact-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
   color: var(--secondary-color);
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
 }
 
 .about-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
 
 .primary-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -72,6 +84,10 @@ h3 {
   color: white;
 }
 
+.home-page-paragraph {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
 .email {
   text-align: center;
   display: block;
@@ -79,6 +95,8 @@ h3 {
 }
 
 .about-paragraphs {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
   display: flex;
   margin-top: 30px;
   margin-left: 20px;
@@ -89,8 +107,10 @@ h3 {
 
 .contact-info {
   margin-top: 48px;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
 }
 .email {
   text-decoration: none;
