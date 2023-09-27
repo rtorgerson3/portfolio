@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 96px;
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
@@ -23,11 +23,14 @@ h3 {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 24px;
+  opacity: 0.9;
 }
 
 h5 {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 0;
 }
 .body-container {
   margin-top: 150px;
@@ -56,19 +59,16 @@ h5 {
   height: auto;
 }
 
+.home-intro {
+  padding: 160px 0;
+}
+
 .contact-link {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   color: var(--secondary-color);
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
-}
-
-.about-link {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
 }
 
 .primary-link {
