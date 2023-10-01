@@ -97,6 +97,17 @@ h5 {
 .work-intro h1 {
   font-size: 50px;
 }
+
+.about-paragraph {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.profile-picture {
+  width: 600px;
+  height: auto;
+}
 .email {
   text-align: center;
   display: block;
