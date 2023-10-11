@@ -116,6 +116,22 @@ i {
   height: auto;
 }
 
+.project-heading {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.project-description {
+  color: black;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
 .contact-info {
   margin-top: 48px;
   font-size: 20px;
