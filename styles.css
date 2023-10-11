@@ -33,6 +33,16 @@ h5 {
   font-size: 24px;
   margin-bottom: 0;
 }
+
+li {
+  list-style-type: circle;
+}
+i {
+  color: black;
+  opacity: 0.9;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
 .body-container {
   margin-top: 150px;
 }
@@ -105,11 +115,6 @@ h5 {
   width: 600px;
   height: auto;
 }
-.email {
-  text-align: center;
-  display: block;
-  color: var(--primary-color);
-}
 
 .contact-info {
   margin-top: 48px;
@@ -118,13 +123,25 @@ h5 {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
 }
+
 .email {
+  color: var(--primary-color);
   text-decoration: none;
-  margin-bottom: 48px;
+  font-size: 18px;
 }
 
 .email:hover {
-  text-decoration: underline;
+  color: #212529;
+}
+
+.linkedin {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+.linkedin:hover {
+  color: #212529;
 }
 
 @media (max-width: 576px) {
